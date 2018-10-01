@@ -11,18 +11,18 @@ $twilio = new Client($sid, $token);
 
 //$client = new Services_Twilio($sid, $token);
  
-//$twilio->messages->create(array(
-//	'To' => "+12019854884",
-//	'From' => "+19292039232",
-//	'Body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
-//));
-
-$twilio->accounts->messages->create(
-	'+12019854884',
-	array(
-    'from' => '+19292039232',
-    'body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
+$twilio->messages->create(array(
+	'To' => "+12019854884",
+	'From' => "+19292039232",
+	'Body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
 ));
+
+//$twilio->accounts->messages->create(
+//	'+12019854884',
+//	array(
+//    'from' => '+19292039232',
+//    'body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
+//));
 
 //$message = $twilio->messages
 //    ->create("+12019854884", // to

@@ -17,19 +17,20 @@ $twilio = new Client($sid, $token);
 //	'Body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
 //));
 
-//$twilio->accounts->messages->create(
-//	'+12019854884',
-//	array(
-//    'from' => '+19292039232',
-//    'body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
-//));
+$twilio->accounts->messages->create(
+	'+12019854884',
+	array(
+    'from' => '+19292039232',
+    'body' => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
+));
 
-$message = $twilio->messages
-    ->create("+12019854884", // to
-        array(
-            "from" => "+19292039232",
-            "body" => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
-        )
-    );
-
-print($message->sid);
+//$message = $twilio->messages
+//    ->create("+12019854884", // to
+//        array(
+//            "from" => "+19292039232",
+//            "body" => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
+//        )
+//    );
+//
+//print($message->sid);
+?>

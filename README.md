@@ -13,4 +13,4 @@ Enjoy free service!!!
 
 # Screenshot
 
-![Alt text](/phpTwilio/blob/master/Image-1.jpeg?raw=true "Screenshot")
+![Alt text](/Image-1.jpeg?raw=true "Screenshot")

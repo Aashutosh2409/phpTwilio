@@ -13,14 +13,14 @@ $twilio = new Client($sid, $token);
 
 //Detail Information
 echo "<strong>----- SMS Details: -----</strong> </br> ";
-echo "<strong>Sender:</strong> +19XXXXXXXXX </br>";
+echo "<strong>Sender:</strong> +19292039232 </br>";
 echo "<strong>Recipient:</strong> +19XXXXXXXXX </br>";
 echo "<strong>Message:</strong> Hello from AASHUTOSH SINGH CS 643 Fall 2018 </br>";
 
 $message = $twilio->messages
-    ->create("+19XXXXXXXXX", // to
+    ->create("+19XXXXXXXXX", // Recipient
         array(
-            "from" => "+19XXXXXXXXX",
+            "from" => "+19292039232",
             "body" => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
         )
     );

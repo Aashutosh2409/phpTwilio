@@ -18,9 +18,9 @@ echo "<strong>Recipient:</strong> +19XXXXXXXXX </br>";
 echo "<strong>Message:</strong> Hello from AASHUTOSH SINGH CS 643 Fall 2018 </br>";
 
 $message = $twilio->messages
-    ->create("+19173490168", // to
+    ->create("+19XXXXXXXXX", // to
         array(
-            "from" => "+19292039232",
+            "from" => "+19XXXXXXXXX",
             "body" => "Hello from AASHUTOSH SINGH CS 643 Fall 2018"
         )
     );

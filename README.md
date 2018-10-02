@@ -14,5 +14,5 @@ Enjoy free service!!!
 # Screenshot
 
 <div align="center">
-    <img src="/Image-1.jpeg" width="400px" height="400px"</img> 
+    <img src="/Image-1.jpeg" width="400px" </img> 
 </div>

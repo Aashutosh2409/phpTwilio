@@ -13,4 +13,4 @@ Enjoy free service!!!
 
 # Screenshot
 
-![Alt text](/Image-1.jpeg?raw=true "Screenshot")
+![Alt text](/Image-1.jpeg?raw=true "Screenshot" width="200px" height="200px")

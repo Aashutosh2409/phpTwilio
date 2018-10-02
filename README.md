@@ -13,4 +13,6 @@ Enjoy free service!!!
 
 # Screenshot
 
-![Alt text](/Image-1.jpeg?raw=true "Screenshot" width="200px" height="200px")
+<div align="center">
+    <img src="/Image-1.jpeg" width="400px" height="400px"</img> 
+</div>

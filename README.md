@@ -1,3 +1,9 @@
+# Screenshot
+
+<div align="center">
+    <img src="/Image-1.jpeg" width="333px" </img> 
+</div>
+
 # phpTwilio
 Sending SMS using Twilio service.
 
@@ -10,9 +16,3 @@ Follow below steps to configure your free service!
 5.  For free hosting you can deploy on "heroku server".
 
 Enjoy free service!!!
-
-# Screenshot
-
-<div align="center">
-    <img src="/Image-1.jpeg" width="333px" </img> 
-</div>

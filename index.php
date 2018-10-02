@@ -1,8 +1,9 @@
 <?php
-// this line loads the library
 
+// this line loads the library
 require_once 'Twilio/autoload.php';
 //require ('Twilio.php');
+//using REST API
 use Twilio\Rest\Client;
 
 //Using Twilio Account authentication and token

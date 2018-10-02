@@ -1,7 +1,7 @@
 # Screenshot
 
 <div align="center">
-    <img src="/Image-1.jpeg" width="333px" </img> 
+    <img src="/Image-1.jpeg" width="333px" height="600px" </img> 
 </div>
 
 # phpTwilio
